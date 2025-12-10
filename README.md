@@ -4,7 +4,13 @@ Scripts for harvesting community sports field data across the United States from
 
 ## Requirements
 - Python 3.10+
-- Packages: `requests`, `pandas`, `geopandas`, `shapely`, `tqdm`, `retrying`
+- Install Python dependencies from the provided `requirements.txt`:
+
+```bash
+python -m venv .venv  # optional but recommended
+source .venv/bin/activate
+pip install -r requirements.txt
+```
 
 ## Usage
 The main entry point is `fetch_fields.py`.
